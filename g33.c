@@ -19,7 +19,14 @@ int main()  {
     scanf("%d", &num);
     int rem = 0, sum = 0, n;    
         
-    n = num;    
+    n = num;    /*Digits of 18: 1 and 8.
+Sum of digits: 
+
+1+8=9.
+
+18÷9=2, 
+which is divisible.
+Therefore, 18 is a Harshad number.*/
         
 
     while(num > 0) {    
